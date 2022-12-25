@@ -1,4 +1,4 @@
-#try to find num of word and num of charachter 
+#try to find num of word and num of charachter in sentence
 def count (sentence):
     res=0
     c=0
