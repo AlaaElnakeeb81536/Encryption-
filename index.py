@@ -1,3 +1,5 @@
+# we are given table which is included 4 students and there degrees in math,science,arabic,com.
+#first Q:to find the percentage of degrees for each student anf if any one was absent in any subject don't view his/her percent
 
 dict={"ahmed":{
 "math":80,
@@ -36,7 +38,7 @@ for i in dict:
         
         
         
-#to get the  name and the degree of student in particular subject sorted in descending order     
+#sec Q:create a function to take a subject name then retrieve the student's data in descending order by their degrees .     
         
 def fun(subject):
   student_data = {
@@ -50,10 +52,10 @@ def fun(subject):
   for i in sorted_data:
      print (i)
 
-
 fun('math')
 
-#to get the highestone in a particular subject
+#third Q: create a function to find the students who achieve the high score in a particular subject.
+
 def highest_score(subject):
     highest_score = 0
     highest_student = ""
@@ -116,7 +118,8 @@ def highest_score(subject):
 print (highest_score("math"))
 
 
-#simulation using oop
+#Apply OOP concepts to simulate the previous table.
+
 class student:
   def init (self,name,math_score,science_score,arabic_score,com_score):
          self.name=name
