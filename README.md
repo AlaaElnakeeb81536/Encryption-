@@ -1,3 +1,2 @@
-# MyProject
-Practical Exam in python(With OOP)
+# Student managment system
 
