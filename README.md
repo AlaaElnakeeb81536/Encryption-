@@ -1,2 +1,2 @@
 # Encryption message
- Encryption message between sender and receiver .
+ Encryption message between sender and receiver using arduino.
